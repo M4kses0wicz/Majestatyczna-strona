@@ -1,34 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <title>Glass UI</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="bg">
-      <div class="kolo"></div>
-      <div class="kolo2"></div>
-      <div class="kolo3"></div>
-    </div>
     <main>
-      <h1>Większy Majestatyczny Napis</h1>
-      <h3>Mniejszy Majestatyczny Napis</h3>
-      <p>Majestatyczna Animacja:</p>
-      <div class="border2"></div>
-      <img
-        src="gf-CBBg-ndYs-P2pP_mariusz-pudzianowski-1920x1080-nocrop.jpg"
-        alt="Pudzian"
-      />
-      <div class="border1"></div>
+      <h1>Światowe Rozgrywki Piłkarskie</h1>
+      <div class="img-container">
+        <img src="R.jpg" alt="Boisko" />
+      </div>
+      <div class="banners-container">
+        <div class="banner">
+          <h3>EVG - FCB</h3>
+          <p>3 - 1</p>
+          <p>w dniu: 2019-05-14</p>
+        </div>
+        <div class="banner">
+          <h3>EVG - FCB</h3>
+          <p>2 - 1</p>
+          <p>w dniu: 2019-05-20</p>
+        </div>
+        <div class="banner">
+          <h3>EVG - JUV</h3>
+          <p>3 - 0</p>
+          <p>w dniu: 2019-05-13</p>
+        </div>
+        <div class="banner">
+          <h3>EVG - RM</h3>
+          <p>2 - 0</p>
+          <p>w dniu: 2019-05-16</p>
+        </div>
+        <div class="banner">
+          <h3>EVG - FCB</h3>
+          <p>1 - 1</p>
+          <p>w dniu: 2019-05-22</p>
+        </div>
+      </div>
     </main>
+    <h1>Reprezentacja Polski</h1>
+    <section>
+      <div class="left-content">
+        <p>
+          Podaj pozycje zawodników (1 - bramkarze, 2 - obrońcy, 3 - pomocnicy, 4
+          - napastnicy):
+        </p>
+        <br />
+        <form action="?" method="post">
+          <input type="number" min="1" max="4" />
+          <button type="submit">Sprawdź</button>
+        </form>
+        <ul>
+          <li>Arkadiusz Milik</li>
+          <li>Adam Buksa</li>
+        </ul>
+      </div>
+      <div class="right-section">
+        <img
+          src="Szablon-malarski-Pilkarz-Pilka-nozna-120x120-cm.jpg"
+          alt="piłkarz"
+        />
+        <p>Autor: 00000000000</p>
+      </div>
+    </section>
   </body>
 </html>
